@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=Ta">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <table border="1">
+        <!-- Início Linha -->
+        <thead>
+            <!-- Início cabeçalho -->
+            <!-- tbody é o atributo que cria o corpo da tabela -->
+        <tbody>
+            <th class="Marca">Marca</th>
+            <!--  Alt + shift +  seta para baixo >> clonar linha para baixo -->
+            <th class="Modelo">Modelo</th>
+            <th>Ano</th>
+            </thead>
+            <!-- Fim Linha -->
+            <!-- Início Coluna -->
+            <tr>
+                <th rowspan="3">Toyota</th>
+                <td>Corolla</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Camry</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Etios</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Honda</th>
+                <td>Fit</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Civic</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <th>Mitsubishi</th>
+                <td>Lancer</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td colspan="3">Última atualização: 10/09/2024
+                <td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Meu rodapé na tabela!</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- tfoot é o atributo que cria um rodapé na tabela -->
+    <style>
+        .Marca {
+            background-color: yellow;    
+        }
+    </style>
+
+</body>
+
+
+</html>
